@@ -1,7 +1,5 @@
 # postgresql 9.x script for Ubuntu 14x64
 
-
-
 For use on a clean Ubuntu 14.x64 box only!
 
 This script will install whiched ever version you set in the script on line 8:  
@@ -9,6 +7,8 @@ This script will install whiched ever version you set in the script on line 8:
 <code>
 PG_VER='9.4'
 </code>
+
+Unlike the CentOS scripts, this script requires answering one prompt for download.
 
 - postgresql94 
 
@@ -60,6 +60,7 @@ The script also creates the following:
 
 - Once completed, it will display the new passwords for pgadmin, root, postgres, and ssl as well as write them to an auth.txt file.  It will also restart SSHD, so be sure to copy new password!
 
+Example:
 
 Passwords saved in /root/auth.txt
 
