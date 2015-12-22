@@ -4,7 +4,11 @@
 
 For use on a clean Ubuntu 14.x64 box only!
 
-This script will install whiched ever version you set in the script:
+This script will install whiched ever version you set in the script on line 8:  
+
+<code>
+PG_VER='9.4'
+</code>
 
 - postgresql94 
 
@@ -58,8 +62,12 @@ The script also creates the following:
 
 
 Passwords saved in /root/auth.txt
+
 pg pass: DqVnavTlCXcSKfgprgUtjF-20rpfsKui
+
 ssl pass: yxaQJCXgueTw19XEOMPdZzNd5n6rwVOG
+
 pgadmin pass: A0RUHtEfSFC82mHeDP_ixrRavk7itgkE
+
 root pass: RvZEHkZv-AeQS-ce0Mcnif7GxmmJ-zxN
 
